@@ -11,11 +11,15 @@ exit : Exits the shell with exit(-1) status. Type 'exit' to exit.
 
 history : Prints all(executed or failed) prev commands except the most recent 'history' by reading from a file created within the program.
 
-ls: Implemented -a option only. Prints all directories/ files including . and ..
+ls : Implemented -a option only. Prints all directories/ files including . and ..
 Can display contents of directories other than the current directory. Throws an error if the directory is invalid.
 
-cat: Implemented -n & -b. Prints line number with the lines with slight variation. Throws an error if the file is not valid.
+cat : Implemented -n & -b. Prints line number with the lines with slight variation. Throws an error if the file is not valid.
 
-date: Simply prints the current date and time.
+date : Simply prints the current date and time.
 
-rm: Can delete multiple files in one instance.
+rm : Can delete multiple files in one instance.
+
+mkdir : Creates a directory at the said location with 777 permissions. 
+
+TO DO: 1) Implement options for rm & mkdir
